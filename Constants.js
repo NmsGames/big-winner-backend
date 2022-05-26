@@ -72,7 +72,11 @@ const SelectGame =
     5:"LuckyBall",
     6:"TripleChance",
     7:"Roulette",
-    8:"FunTarget"
+    8:"FunTarget",
+    9:"WheelOfFortune",
+    10:"PokerKing",
+
+
 }
 
 

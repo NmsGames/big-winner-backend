@@ -10,11 +10,14 @@ let botLucky = [];
 let botTripleChance = [];
 let botRoulette = [];
 let botFunTarget = [];
+let botWheelOfFortune = [];
+let botPokerKing = [];
+
 
 
 
 let maxBots = 6;
-let totalGames = 8;
+let totalGames = 10;
 LoadBots();
 
 function GetBots(gameId) {
@@ -27,6 +30,9 @@ function GetBots(gameId) {
         case 6: return  botTripleChance ; break;
         case 7: return  botRoulette ; break;
         case 8: return  botFunTarget ; break;
+        case 9: return  botWheelOfFortune ; break;
+        case 10: return  botPokerKing ; break;
+
 
 
 
@@ -58,6 +64,9 @@ function pushBots(botArr,gameId){
         case 6: botTripleChance = botArr; break;
         case 7: botRoulette = botArr; break;
         case 8: botFunTarget = botArr; break;
+        case 9: botWheelOfFortune = botArr; break;
+        case 10: botPokerKing = botArr; break;
+
 
 
 

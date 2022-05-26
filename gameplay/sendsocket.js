@@ -5,6 +5,9 @@ const SendSocketToLucky = require("./LuckyBall").GetSocket;
 const SendSocketToRoulette = require("./Roulette").GetSocket;
 const SendSocketToFunTareget = require("./FunTarget").GetSocket;
 const SendSocketToTripleChance = require("./TripleChance").GetSocket;
+const SendSocketToWheelOfFortune = require("./WheelOfFortune").GetSocket;
+const SendSocketToPokerKing= require("./PokerKing").GetSocket;
+
 
 
 
@@ -15,14 +18,15 @@ const SendSocketToAndarbhar = require("./Andarbhar").GetSocket;
 function sendSocket(socket){
     SendSocketToSvenUP(socket)
     SendSocketToDvT(socket)
-    SendSocketToAndarbhar(socket)
+   SendSocketToAndarbhar(socket)
  SendSocketToTitali(socket)
  SendSocketToLucky(socket)
  
  SendSocketToTripleChance(socket)
  SendSocketToRoulette(socket)
  SendSocketToFunTareget(socket)
-
+SendSocketToWheelOfFortune(socket)
+SendSocketToPokerKing(socket)
 
 
 

@@ -726,7 +726,7 @@ function OnTest(data) {
     	//SendBotData()
     	//OnSendWinNo()
         console.table(BetHolder);
-        // console.table(currentRoundData);
+        // console.table(currentRoundData)
     })
 }
 

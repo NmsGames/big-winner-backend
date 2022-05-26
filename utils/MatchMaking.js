@@ -9,6 +9,9 @@ const StartLuckyBall = require("../gameplay/LuckyBall").StartLuckyBall;
 const StartRouletteGame = require("../gameplay/Roulette").StartRouletteGame;
 const StartFunTargetGame = require("../gameplay/FunTarget").StartFunTargetGame
 const StartTripleChance = require("../gameplay/TripleChance").StartTripleChance
+const StartWheelOfFortune= require("../gameplay/WheelOfFortune").StartWheelOfFortune
+const StartPokerKing = require("../gameplay/PokerKing").StartPokerKing
+
 
 
 const StartAndarbharGame = require("../gameplay/Andarbhar").StartAndarbharGame;  
@@ -32,6 +35,9 @@ async function MatchPlayer(data) {
         case selectGame[6]: StartTripleChance(data);break;
         case selectGame[7]: StartRouletteGame(data);break;
         case selectGame[8]: StartFunTargetGame(data);break;
+        case selectGame[9]: StartWheelOfFortune(data);break;
+        case selectGame[10]: StartPokerKing(data);break;
+
 
 
 
